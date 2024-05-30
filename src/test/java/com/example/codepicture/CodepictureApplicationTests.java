@@ -11,7 +11,7 @@ class CodepictureApplicationTests {
 
     @Test
     void contextLoads() {
-        CreateImageCode imageCode = new CreateImageCode(160, 40, 4, 20);
+        CreateImageCode imageCode = new CreateImageCode(160, 40, 6, 20);
         try {
             // 保存图片到本地
             imageCode.saveImageToFile("D:/image.png");
